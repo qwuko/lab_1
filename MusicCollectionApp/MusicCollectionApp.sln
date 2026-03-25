@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicCollectionApp", "MusicCollectionApp\MusicCollectionApp.csproj", "{55D1EB44-92CA-4CA0-AD97-8333967059DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicCollectionAppTests", "MusicCollectionAppTests\MusicCollectionAppTests.csproj", "{066B4A5F-A484-4EFE-8723-76744605D55F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{55D1EB44-92CA-4CA0-AD97-8333967059DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55D1EB44-92CA-4CA0-AD97-8333967059DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55D1EB44-92CA-4CA0-AD97-8333967059DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{066B4A5F-A484-4EFE-8723-76744605D55F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{066B4A5F-A484-4EFE-8723-76744605D55F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{066B4A5F-A484-4EFE-8723-76744605D55F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{066B4A5F-A484-4EFE-8723-76744605D55F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
