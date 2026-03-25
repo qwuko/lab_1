@@ -82,5 +82,21 @@ namespace MusicCollectionAppTests
         {
             new MusicTrack("Artist", "Title", "Genre", 0);
         }
+
+        [TestMethod]
+        public void Constructor_ValidData_CreatesTrack()
+        {
+            string artist = "Artist";
+            string title = "Title";
+            string genre = "Genre";
+            int year = 2020;
+
+            var track = new MusicTrack(artist, title, genre, year);
+
+            Assert.AreEqual(artist, track.Artist);
+            Assert.AreEqual(title, track.Title);
+            Assert.AreEqual(genre, track.Genre);
+            Assert.AreEqual(year, track.Year);
+        }
     }
 }
