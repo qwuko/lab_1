@@ -32,15 +32,9 @@ public class MusicCollection
 
     public void RemoveTrack(MusicTrack track)
     {
-        var existingTrack = tracks.FirstOrDefault(t =>
-            t.Artist == track.Artist &&
-            t.Title == track.Title &&
-            t.Genre == track.Genre &&
-            t.Year == track.Year);
-
-        if (existingTrack != null)
+        if (tracks.Contains(track))
         {
-            tracks.Remove(existingTrack);
+            tracks.Remove(track);
             LoadTracks();
             MessageBox.Show("Трек удалён.");
         }
